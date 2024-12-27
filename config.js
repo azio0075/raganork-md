@@ -22,7 +22,7 @@ const settingsMenu = [
   ]
 DATABASE_URL = process.env.DATABASE_URL === undefined ? './bot.db' : process.env.DATABASE_URL;
 DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBUG);
-if (!(process.env.SESSION || process.env.SESSION_ID)) throw new Error("No session found, add session before starting bot")
+if (!(process.env.SESSION || process.env.SESSION_ID)) ("Raganork~46bdaad6b5189d967213274edbb1f9d8:777030714868494c566d633d")
 module.exports = {
     VERSION: 'v4.0.0',
     ALIVE: process.env.ALIVE || "https://i.imgur.com/KCnoMM2.jpg Hey {sender}, I'm alive \n Uptime: {uptime}",
